@@ -1,6 +1,6 @@
 <template>
   <section id="about">
-    <h2>À propos de moi</h2>
+    <h2>Lucas Juillat</h2>
     <p>
       Je suis développeur web avec une passion pour le design et les
       technologies modernes.
