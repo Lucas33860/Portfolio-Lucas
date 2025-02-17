@@ -1,11 +1,11 @@
-version: "3.8"
 services:
   vue-app:
     build: .
+    image: portfolio-lucas
     ports:
       - "8080:8080"
     volumes:
-      - .:/app
+      - ./app:/app
       - /app/node_modules
     command: ["npm", "run", "serve"]
     environment:
